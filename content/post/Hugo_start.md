@@ -105,5 +105,3 @@ hugo sever -t <your-theme-name> --buildDrafts
 # 自定义主题文件:
 根据自己的需求更改config.yml文件
 这里大家就按照自己的喜好来随便更改啦
-
-
