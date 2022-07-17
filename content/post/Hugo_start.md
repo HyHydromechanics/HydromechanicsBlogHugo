@@ -97,10 +97,18 @@ hugo new posts/your-fist-post.md
 # 启动服务器
 
 ```dos
-hugo sever -t <your-theme-name> --buildDrafts
+hugo server -t papermod --buildDrafts
 ```
 
 随后, 你就可以去[https://localhosts:1313](https://localhosts:1313)来访问你的博客了
+
+# 完成Draft构建
+
+```
+hugo --theme=PaperMod --baseUrl="https://HyHydromechanics.github.io" --buildDrafts
+```
+
+
 
 # 自定义主题文件:
 根据自己的需求更改config.yml文件
